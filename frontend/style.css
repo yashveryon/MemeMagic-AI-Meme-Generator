@@ -1,0 +1,166 @@
+/* Base styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #111, #222);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* App container */
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Heading */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+/* Upload section */
+.upload-box {
+  margin-bottom: 1.5rem;
+}
+
+input[type="file"] {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #222;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 0.3rem;
+}
+
+/* Creativity slider layout */
+.temp-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Slider styling */
+#temperatureSlider {
+  width: 200px;
+  cursor: pointer;
+  accent-color: #2ecc71;
+}
+
+/* Temperature value text */
+#tempValue {
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+/* Button style */
+button {
+  padding: 0.7rem 1.5rem;
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+/* Share button specific */
+#shareBtn {
+  background-color: #f1c40f;
+  color: black;
+}
+
+#shareBtn:hover {
+  background-color: #d4ac0d;
+}
+
+/* Loading indicator */
+#loading {
+  font-size: 1.2rem;
+  color: #f39c12;
+  margin-top: 1rem;
+}
+
+/* Hidden elements */
+.hidden {
+  display: none !important;
+}
+
+/* Result section */
+#result {
+  margin-top: 1.5rem;
+}
+
+/* Meme image display */
+#memeImage {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  visibility: visible;
+}
+
+/* Download button */
+.download-link {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #3498db;
+  padding: 0.6rem 1.2rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.download-link:hover {
+  background-color: #2980b9;
+}
+
+/* Caption editor */
+#editCaptionBox textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  border: 1px solid #444;
+  background-color: #111;
+  color: white;
+  font-size: 1rem;
+  resize: vertical;
+  margin-top: 0.5rem;
+}
+
+/* Social share links */
+#socialOptions a {
+  display: inline-block;
+  margin: 0.3rem 0.6rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #444;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease;
+  font-weight: bold;
+}
+
+#socialOptions a:hover {
+  background-color: #666;
+}

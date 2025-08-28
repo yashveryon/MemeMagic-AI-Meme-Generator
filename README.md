@@ -7,19 +7,7 @@ This tool is designed for creators, social media enthusiasts, and anyone who wan
 
 ---
 
-## 📜 Table of Contents
-- [Features](#features)
-- [Project Overview](#project-overview)
-- [Tech Stack](#tech-stack)
-- [How It Works](#how-it-works)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
 
----
 
 ## ✨ Features  
 
